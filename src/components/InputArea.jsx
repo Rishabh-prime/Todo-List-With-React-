@@ -19,12 +19,7 @@ function InputArea(props) {
         onClick={() => {
           props.onAdd(inputText);
           setInputText("");
-          // ye input text curent array item ko refer ker raha hai inputput text vo hai jo user likehga
-          //const [inputText, setInputText] = useState("");
-          // app wale section humne inputText as parameter pass kiya hai function addItem(inputText) {
-          // setItems((prevItems) => {
-          //return [...prevItems, inputText];
-          // });
+         
         }}
       >
         <span>Add</span>
